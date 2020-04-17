@@ -1,0 +1,44 @@
+body {
+    background-color: #e74c3c;
+}
+
+h1 {
+    font-family: verdana, sans-serif;
+    font-weight: 400;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+.button {
+    position: relative;
+    background-color: #ffffff;
+    color: black;
+    width: 500px;
+    height: 60px;
+    border-radius: 30px;
+    left: -430px;
+    margin: 20px;
+    transition: 0.7s ease;
+
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+.button:hover {
+    left: -55px;
+    box-shadow: 5px 5px 10px black;
+}
+
+.button:active {
+    background-color: rgb(5, 6, 54);
+    color: white;
+    transition: 0s;
+
+}
